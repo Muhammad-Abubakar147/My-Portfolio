@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d1c"/>
+      <stop offset="100%" stop-color="#151a30"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="15%" cy="15%" r="45%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="90%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+
+  <g stroke="url(#fg)" stroke-width="1.2" opacity="0.3" fill="none">
+    <path d="M80 520 L220 440 L220 320 L340 250"/>
+    <path d="M1120 480 L980 400 L980 280 L860 210"/>
+    <circle cx="220" cy="320" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="980" cy="280" r="4" fill="#8b5cf6" stroke="none"/>
+  </g>
+
+  <rect x="90" y="90" width="108" height="108" rx="28" fill="url(#fg)"/>
+  <text x="144" y="168" font-family="Poppins, sans-serif" font-size="52" font-weight="800" text-anchor="middle" fill="#0a0d1c">MA</text>
+
+  <text x="90" y="330" font-family="Poppins, sans-serif" font-size="64" font-weight="700" fill="#f2f3fb">Muhammad Abubakar</text>
+  <text x="90" y="380" font-family="JetBrains Mono, monospace" font-size="26" fill="#67e8f9">Python Developer · Data Science · Machine Learning · AI</text>
+
+  <text x="90" y="440" font-family="Inter, sans-serif" font-size="22" fill="#9aa1c2">Portfolio &amp; Projects</text>
+</svg>
