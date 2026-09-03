@@ -599,7 +599,8 @@
         name: fields.name.value.trim(),
         email: fields.email.value.trim(),
         subject: fields.subject.value.trim(),
-        message: fields.message.value.trim()
+        message: fields.message.value.trim(),
+         to_email: "brandmirza702@gmail.com"
       };
 
       const emailjsReady = window.emailjs && CONFIG.emailjs?.enabled &&

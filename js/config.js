@@ -61,7 +61,7 @@ const CONFIG = {
      https://www.emailjs.com, create a service + template, set
      enabled to true and fill in your three IDs below.              */
   emailjs: {
-    enabled: false,
+    enabled: true,
     publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
     serviceId: "YOUR_EMAILJS_SERVICE_ID",
     templateId: "YOUR_EMAILJS_TEMPLATE_ID"

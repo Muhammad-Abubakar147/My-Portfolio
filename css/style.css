@@ -681,3 +681,19 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 ::-webkit-scrollbar-track { background: var(--bg-void); }
 ::-webkit-scrollbar-thumb { background: var(--bg-surface-2); border-radius: 10px; border: 2px solid var(--bg-void); }
 ::-webkit-scrollbar-thumb:hover { background: var(--purple); }
+
+/* ===== CENTER 3 HERO STATS ===== */
+
+.hero__stats {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 270px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.hero__stats .stat {
+    flex: 0 0 auto !important;
+    text-align: center !important;
+}
