@@ -60,13 +60,12 @@ const CONFIG = {
      messages land directly in your inbox instead, sign up free at
      https://www.emailjs.com, create a service + template, set
      enabled to true and fill in your three IDs below.              */
-  emailjs: {
-    enabled: true,
-    publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
-    serviceId: "YOUR_EMAILJS_SERVICE_ID",
-    templateId: "YOUR_EMAILJS_TEMPLATE_ID"
-  },
-
+ emailjs: {
+  enabled: true,
+  publicKey: "H-RNV_55rgQtYSRMs",
+  serviceId: "service_gpevmbq",
+  templateId: "template_qce239q"
+},
   /* ---------------- Hero role words (typing animation) ---------------- */
   roles: [
     "Python Developer",
