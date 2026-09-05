@@ -26,10 +26,10 @@ const CONFIG = {
      Drop your PDF at assets/resume/resume.pdf (keep this exact
      filename, or update the path below) and both the "View Resume"
      and "Download Resume" buttons will work automatically.        */
-  resume: {
-    path: "assets/resume/My_cv_Abubakar.pdf",
-    downloadFilename: "Muhammad_Abubakar_Resume.pdf"
-  },
+resume: {
+    path: "assets/resume/Resume%20(1).pdf",
+    downloadFilename: "Resume (1).pdf"
+},
 
   /* ---------------- Profile picture ----------------
      Replace assets/images/profile.svg with your own photo
